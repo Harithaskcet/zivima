@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back8"
+    tools:context="com.example.admin.zivima.Health">
+    <!--#235D85-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:id="@+id/heading"
+        android:textColor="#ADFF2F"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/heading">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="
+Separate banking software for persons with intellectual disabilities including better access to avail ATM services."
+                android:textSize="24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="Separate banking software for persons with intellectual disabilities including better access to avail ATM services"
+                android:textSize="20dp"/>
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Attach File"
+                android:onClick="submit"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="
+After Death Care"
+                android:textSize="24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="1. Mortuary Vans are largely not available across states and it becomes extremely disappointing if the vans are not available to take dead bodies from hospitals to their respective homes. 2. Though there are vans which are available in private space however there is no single point of contact through which services of these vans could be requested when in need. 3. It is expected that technology can bring all that data in once place and help users and health system to request these services whenever a death is reported in the hospital. The service could be accessed by various means such as miss call, mobile app, sms or call to a central number."
+                android:textSize="20dp"/>
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Attach File"
+                android:onClick="submit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="
+
+Improving appointment scheduling in the Hospitals"
+                android:textSize="24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="1. Presently ministry of health and family welfare has started using online appointment system for helping patient get appointments in large tertiary care hospitals like AIIMS. 2. The appointment could be taken for any date and for any provider of choice. However currently there is no mechanism to inform patient if the same provider is not available in the hospital on the scheduled date. 3. The process of rescheduling appointment with any other provider is also not available and for follow-ups the appointment scheduling system does not generate any reminders to the patients and if patient discovers late about the follow-up visit he has to do the entire process of appointment scheduling again to get the appointments done. 4. Digital technology can help to address this issue by identifying mechanism to link the current appointment system with the duty roster of the doctors and also create mechanism for re-appointment of the patients with other providers in case provider of choice is not available. The solution should also include sending follow-up reminders to the patients and helping them to schedule follow-up visits with the doctors without registering for the appointment once again. Desired Outcome: i) This helps in building more trust among patients about the hospital and would also encourage patients to get timely follow-up visits done to improve their health status. ii) Any technology such as web, App or some SMS based system could be used to fulfill this need."
+                android:textSize="20dp"/>
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Attach File"
+                android:onClick="submit" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "761384221516",
+    "firebase_url": "https://zivima-c9ce5.firebaseio.com",
+    "project_id": "zivima-c9ce5",
+    "storage_bucket": "zivima-c9ce5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761384221516:android:1c823c208187b984",
+        "android_client_info": {
+          "package_name": "com.example.admin.zivima"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761384221516-v44t7fs38n1blgc7teo52l662hv4nq0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.zivima",
+            "certificate_hash": "ce99ac912e3c0ebe3541ae9b74c897a730e93fb6"
+          }
+        },
+        {
+          "client_id": "761384221516-bcfenti0po3pl9s883c2b17o7qpgalg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwGc0R7IcxQzeUhJMDroiS0gpm50OshbQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761384221516-bcfenti0po3pl9s883c2b17o7qpgalg4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
